@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keywords="coches, ruedas, potencia, volante">
+    <title>FONAMENTS</title>
+</head>
+<body>
+    <h1 id="principal">PRESENTACION</h1>
+    <h2 id="saludo">subtitulo 2</h2>
+    <h3>subtitulo 3</h3>
+    <p>Parrafo 1</p>
+    <p>Parrafo 2</p> 
+
+    <p>Mi nombre <input type="text" id="nombre"/></p>
+    <p>y trabajo como <input type="text" id="trabajo"/></p>
+    <button onclick="saludar()">SALUDAR</button>
+    <p id="saludo"></p>
+
+    <script>
+        /* document.getElementById("principal").innerHTML = "Bienvenidos"; 
+        function saludar() {
+            document.getElementById("saludo").innerHTML = "Hola " +
+             document.getElementById("nombre").value + " " +
+              document.getElementById("trabajo").value;
+        } */
+
+        var x = "5";
+        document.write(x + "</br>");
+        document.write(typeof(x) + "</br>");
+        document.write(x + 1 + "</br>");
+        x = Boolean(x);
+        document.write(x + "</br>");
+        x = Number(x);
+        document.write(x + "</br>");
+        document.write(typeof(x) + "</br>");
+        document.write(x + 1);        
+    </script>
+</body>
+</html>
